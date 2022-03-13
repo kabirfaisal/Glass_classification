@@ -1,4 +1,4 @@
-# Glass_classification_Decision_Tree
+# Glass_classification
 #Dataset Discription:
 RI: refractive index
 Na: Sodium (unit measurement: weight percent in corresponding oxide, as are attributes 4-10)
