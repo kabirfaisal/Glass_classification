@@ -9,14 +9,14 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
   
-# load dataset and print basic information
+# load dataset and print basic information (Length, Shape, )
 def load_data():
     df = pd.read_csv(r"C:\Users\Kabir\Downloads\Glass Classification\glass.csv",sep= ',', header = None)
       
     # Print the dataset length, shape, data type
     print ("Length: ", len(df))
     print ("Shape: ", df.shape)
-    print ("Shape: ", df.dtypes)
+    print ("Data Type: ", df.dtypes)
       
     # Print the obseravtions
     print (df.head())
