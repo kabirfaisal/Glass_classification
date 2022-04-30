@@ -97,6 +97,6 @@ def main():
     calculate_acc(y_test, y_pred_entropy)
       
       
-# Calling main function
+# Calling the main function
 if __name__=="__main__":
     main()
